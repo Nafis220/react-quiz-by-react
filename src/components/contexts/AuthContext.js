@@ -27,7 +27,7 @@ export function AuthProvider({ children }) {
   }, []);
 
   //signup function
-  async function signup(email, password, username) {
+  async function signup(username, email, password) {
     //to authenticate 'getAuth' will provide all necessary elements,
     const auth = getAuth();
     // to do signup firebase use this below sign up function
